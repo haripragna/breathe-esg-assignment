@@ -1,23 +1,53 @@
 # MODEL
 
-## Tenant
+## Backend
+
+The backend is built using Django REST Framework.
+
+It handles:
+
+- Data ingestion API
+- Record storage
+- Data normalization
+- Analyst review workflow
+- Admin management
+
+Main models:
+
+### Tenant
 Represents enterprise clients.
 
-## DataSource
-Tracks source type:
+### DataSource
+Tracks uploaded source type:
 - SAP
 - Utility
 - Travel
 
-## RawRecord
+### RawRecord
 Stores uploaded source payload.
 
-## NormalizedRecord
-Stores processed ESG records including:
+### NormalizedRecord
+Stores processed ESG data.
+
+Fields:
 - category
 - scope
-- emissions value
+- value
+- unit
 - status
 
-## AuditLog
-Tracks analyst review actions.
+### AuditLog
+Tracks review actions.
+
+---
+
+## Frontend
+
+The frontend is built using React.
+
+It provides:
+
+- Source selection interface
+- Upload trigger
+- Analyst dashboard
+- Normalized record display

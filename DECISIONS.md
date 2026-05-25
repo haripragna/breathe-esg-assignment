@@ -1,13 +1,21 @@
 # DECISIONS
 
-## SAP Source
-Used CSV export simulation because it reflects realistic enterprise SAP exports.
+## Backend Decisions
 
-## Utility Source
-Used structured utility ingestion for simplified realistic prototype.
+Used Django REST Framework because it enables rapid API development.
 
-## Travel Source
-Used API-like structured records.
+Used SQLite for lightweight deployment.
 
-## Tech Stack
-Django REST + React for fast full-stack delivery.
+Created REST endpoints for:
+- Upload
+- Record retrieval
+
+---
+
+## Frontend Decisions
+
+Used React for interactive dashboard rendering.
+
+Used Axios for backend API communication.
+
+Designed a simple analyst dashboard for usability.

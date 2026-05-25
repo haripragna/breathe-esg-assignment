@@ -1,7 +1,15 @@
 # TRADEOFFS
 
-1. Did not implement PDF parsing
-2. Did not build authentication
-3. Did not implement live third-party integrations
+## Backend Tradeoffs
 
-These were intentionally excluded to focus on ingestion workflow and analyst dashboard.
+- No authentication system
+- No PDF parsing
+- No real-time third-party integrations
+
+## Frontend Tradeoffs
+
+- Minimal UI styling
+- No advanced filtering
+- No role-based access control
+
+These tradeoffs were made to prioritize core ingestion workflow delivery.

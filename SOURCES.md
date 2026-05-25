@@ -1,9 +1,14 @@
 # SOURCES
 
-Research used:
+## Backend Research
 
-- SAP flat file export patterns
-- Utility portal export formats
-- Corporate travel platform API payload structures
+- SAP export formats
+- Utility ingestion workflows
+- ESG record normalization patterns
 
-Sample data was modeled after realistic ESG reporting workflows.
+## Frontend Research
+
+- React dashboard design patterns
+- REST API integration practices
+
+Sample data was created to simulate realistic ESG enterprise ingestion.
