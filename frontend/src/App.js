@@ -7,14 +7,14 @@ function App() {
   const [records, setRecords] = useState([]);
 
   const fetchRecords = async () => {
-    const response = await axios.get("http://127.0.0.1:8000/api/records/");
+    const response = await axios.get("https://breathe-esg-assignment-1-vl1v.onrender.com/api/upload/");
     setRecords(response.data);
   };
 
   const handleUpload = async () => {
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/upload/",
+        "https://breathe-esg-assignment-1-vl1v.onrender.com/api/upload/",
         { source_type: sourceType }
       );
 
